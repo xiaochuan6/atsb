@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>河北奥拓泵业</title>
+	<link rel="stylesheet" type="text/css" href="css/gongyong.css">
+	<link rel="stylesheet" type="text/css" href="css/guanyu.css">
+</head>
+<body>
+	<div id="header">
+		<div class="header clearfix">
+			<h1>河北奥拓泵业Hebei aotuo Pump Co., Ltd</h1>
+			<div class="sosuo">
+				<input type="text" id="GO" placeholder="请输入关键词">
+				<a href="#"><img src="images/go.png"></a>
+			</div>
+			<ul class="nav clearfix">
+				<li><a href="index.html">网站首页</a></li>
+				<li  class="second"><a href="guanyu.html">关于我们</a></li>
+				<li><a href="news.html">新闻资讯</a></li>
+				<li><a href="chanpin.html">产品展示</a></li>
+				<li><a href="#">工程案例</a></li>
+				<li><a href="liuyan.html">请您留言</a></li>
+				<li><a href="lianxi.html">联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="banner"></div>
+	<div id="content">
+		<div id="hotnews">
+			<strong>热点新闻：</strong>
+			<ul class=" clearfix">
+				<li><a href="news.html">1.中国水泵网模式整合推陈出新</a></li>
+				<li><a href="news.html">2.中国水泵网模式整合推陈出新</a></li>
+				<li><a href="news.html">3.中国水泵网模式整合推陈出新</a></li>
+				<li><a href="news.html">4.中国水泵网模式整合推陈出新</a></li>
+			</ul>
+		</div>
+		<div id="main">
+			<div class="top clearfix">
+				<div class="tuijian">
+					<h2>推荐产品</h2>
+					<a href="chanpin.html"><img src="images/tuijian1.png"></a>
+					<a href="chanpin.html"><img src="images/tuijian2.png"></a>
+					<a href="chanpin.html"><img src="images/tuijian3.png"></a>
+				</div>
+				<div class="guanyu">
+					<h2>关于我们</h2>
+					<p>河北奥拓泵业有限公司是一个是集研发、设计、制造、营销、服务为一体的国内大型水泵专业制造企业，拥有多年水泵研发制造的</p>
+					<img src="images/guanyubg.png">
+				</div>
+				<div class="lianxi">
+					<h2>联系我们</h2>
+					<p>公司名称：河北奥拓泵业有限公司 <br>公司地址：河北省保定市安国市<br>公司电话：15227226592 <br>联  系 人：赵经理 （先生）</p>
+				</div>
+			</div>
+			<div class="main clearfix">
+				<div class="chanpin">
+					<h3>产品分类</h3>
+					<ul>
+						<li><a href="chanpin.html">多级泵</a><a href="chanpin.html">离心泵</a></li>
+						<li><a href="chanpin.html">污水泵</a><a href="chanpin.html">化工泵</a></li>
+						<li><a href="chanpin.html">泥浆泵</a><a href="chanpin.html">清水泵</a></li>
+						<li><a href="chanpin.html">吸沙泵</a><a href="chanpin.html">渣浆泵</a></li>
+					</ul>
+					<a class="a1" href="chanpin.html">更多>> </a>
+				</div>
+				<div id="imgs">
+					<ul>
+						<li><img src="images/pagenew.png" alt="img1"></li>
+						<li><img src="images/pagenew2.png" alt="img2"></li>
+						<li><img src="images/pagenew3.png" alt="img3"></li>
+						<li><img src="images/pagenew4.png" alt="img4"></li>
+					</ul>
+					<div id="btns">
+						<span index="0" class="on">1</span>
+						<span index="1">2</span>
+						<span index="2">3</span>
+						<span index="3">4</span>
+					</div>
+				</div>
+				<div class="newside">
+					<ul>
+						<li><a href="news.html">中国水泵网模式整合推陈出新<span>2017-1-1</span></a></li>
+						<li><a href="news.html">中国水泵网模式整合推陈出新<span>2017-1-1</span></a></li>
+						<li><a href="news.html">中国水泵网模式整合推陈出新<span>2017-1-1</span></a></li>
+						<li><a href="news.html">中国水泵网模式整合推陈出新<span>2017-1-1</span></a></li>
+						<li><a href="news.html">中国水泵网模式整合推陈出新<span>2017-1-1</span></a></li>
+						<li><a href="news.html">中国水泵网模式整合推陈出新<span>2017-1-1</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="footer">
+			<ul>
+				<li><a href="index.html">返回首页</a></li>
+				<li><a href="guanyu.html">关于我们</a></li>
+				<li><a href="chanpin.html">产品展示</a></li>
+				<li class="last"><a href="#">联系我们</a></li>
+			</ul>
+			<p>版权所有：河北奥拓泵业      电话：15227226592      ICP备案编号：备案中</p>
+		</div>
+	</div>
+	<script>
+	window.onload=function() {
+		var div=document.getElementById('imgs');
+		var ul=div.getElementsByTagName('ul')[0];
+		var imgs=ul.getElementsByTagName('img');
+		var btn=document.getElementById('btn');
+		var btns=document.getElementsByTagName('span');
+		var btnLen=btns.length;
+		var offset=-imgs[0].width;
+		var imgNum=imgs.length;
+		var interval=1500;
+		var index=0;
+		ul.style.left=offset*index+'px';
+		function move() {
+			if (index>imgNum-1) {
+				index=0;
+			}
+			if (index<0) {
+				index=imgNum-1
+			}
+			ul.style.left=offset*index+'px';
+		}
+		function showBtn() {
+			for (var j=0;j<btnLen;j++) {
+				if (btns[j].className=='on') {
+					btns[j].removeAttribute('class');
+					break;
+				}
+			}
+			btns[index].className='on';
+		}
+		for (var i=0;i<btnLen;i++) {
+			btns[i].onmouseover=function () {
+				if (this.className=='on') {
+					return;
+				}
+				var Index=this.getAttribute('index');
+				index=Index;
+				move();
+				showBtn();
+			}
+		}
+		var one=function (){
+			index--;
+			move();
+			showBtn();
+		}
+		var two=function (){
+			index++;
+			move();
+			showBtn();
+		}
+		var timer=setInterval(two,interval);
+		div.onmouseover=function(){
+			clearInterval(timer);
+		}
+		div.onmouseout=function(){
+			timer=setInterval(one,interval);
+		}
+	}
+	</script>
+</body>
+</html>

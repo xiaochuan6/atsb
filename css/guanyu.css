@@ -1,0 +1,172 @@
+
+#content #hotnews li {
+	float: left;
+	padding: 10px 4px;
+}
+#content #hotnews li a:hover {
+	color: #f00;
+}
+#content #hotnews strong {
+	float: left;
+	width: 100px;
+	padding: 10px 0;
+}
+#content #hotnews {
+	width: 1122px;
+	border-bottom: 1px solid;
+}
+#content #main .top{
+	margin: 0 auto;
+}
+#content #main .top .tuijian,.guanyu,.lianxi {
+	float: left;
+	margin-top: 20px;
+	margin-right: 7px;
+	margin-left: 12px;
+	width: 353px;
+	height: 124px;
+	background: url('images/mainbg.png');
+}
+#content #main .top h2 {
+	font-size: 15px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+#content #main .top .tuijian a {
+	display: block;
+	width: 96px;
+	height: 78px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 13px;
+}
+#content #main .top .tuijian a:hover {
+	border: 1px solid;
+}
+#content #main .top .guanyu p{
+	width: 215px;
+	height: 85px;
+	float: left;
+	text-indent: 2em;
+	padding-top: 15px;
+	font-size: 12px;
+	margin-left: 10px;
+}
+#content #main .top .guanyu img {
+	float: left;
+}
+#content #main .top .lianxi p{
+	font-size: 15px;
+	padding-left: 30px;
+	padding-top: 15px;
+}
+#content #main .main {
+	margin-top: 20px;
+
+}
+#content #main .main .chanpin {
+	width: 200px;
+	height: 240px;
+	float: left;
+	margin-left: 25px;
+	border: 1px solid #CACAD9;
+}
+#content #main .main .chanpin h3 {
+	width: 180px;
+	height: 40px;
+	background: #0D9590;
+	line-height: 40px;
+	padding-left: 20px;
+	color: #fff;
+}
+#content #main .main .chanpin ul li {
+	width: 185px;
+	border-bottom: 1px dotted;
+	padding: 8px 0 10px 0;
+	margin-left: 5px;
+}
+#content #main .main .chanpin ul li a{
+	display: inline-block;
+	font-size: 12px;
+	color: #333;
+	font-weight: bold;
+	padding: 0 10px 0 15px;
+}
+#content #main .main .chanpin .a1 {
+	display: block;
+	font-size: 15px;
+	margin-top: 15px;
+	margin-left: 135px;
+	color: #666;
+}
+#content #main .main .chanpin a:hover {
+	color: red;
+}
+#content #main .main .news{
+	margin-left: 20px;
+	margin-top: 15px;
+	float: left;
+}
+#content #main .main .newside {
+	float: left;
+	padding-left: 10px;
+}
+#content #main .main .newside li span {
+	float: right;
+}
+#content #main .main .newside li {
+	width: 580px;
+	height: 40px;
+	border-bottom: 1px dotted #666;
+}
+#content #main .main .newside li a{
+	display: block;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+#content #main .main .newside li a:hover {
+	color: red;
+}
+#content #main .main #imgs{
+	width: 280px;
+	height: 204px;
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 5px;
+	overflow: hidden;
+}
+#content #main .main #imgs ul {
+	height: 204px;
+	width: 1120px;
+	position: absolute;
+}
+#content #main .main #imgs li {
+	width: 280px;
+	float: left;
+}
+#content #main .main #btns {
+	position: absolute;
+	bottom: 0;
+	height: 30px;
+	width: 100%;
+	text-align: right;
+	line-height: 30px;
+	background: #000;
+	opacity: .6;
+}
+#content #main .main #btns span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	line-height: 20px;
+	text-align: center;
+	color: #000;
+	margin: 0 5px;
+	cursor: pointer;
+}
+#content #main .main #btns .on {
+	background: blue;
+	color: #fff;
+}

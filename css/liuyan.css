@@ -1,0 +1,57 @@
+#content #hotnews li {
+	float: left;
+	padding: 10px 4px;
+}
+#content #hotnews li a:hover {
+	color: #f00;
+}
+#content #hotnews strong {
+	float: left;
+	width: 100px;
+	padding: 10px 0;
+}
+#content #hotnews {
+	width: 1122px;
+	border-bottom: 1px solid;
+}
+#content #main {
+	margin: 20px auto;
+	width: 1120px;
+	height: 500px;
+	box-shadow: 0 2px 10px #888888;
+	background: #EEEEEE ;
+}
+#content #main form{
+	width: 900px;
+	margin: 0 auto;
+}
+#content #main form h1{
+	font-size: 30px;
+	padding: 20px 0;
+}
+#content #main form p{
+	width: 900px;
+	padding: 5px 0;
+}
+#content #main form p label{
+	padding: 0 3px;
+}
+#content #main form p span {
+	width: 80px;
+	display: inline-block;
+	text-align: left;
+}
+#content #main form p .x,textarea {
+	vertical-align: middle;
+}
+#content #main form .a input{
+	width: 80px;
+	height: 45px;
+	border-radius: 5px;
+	font-size: 15px;
+	background: #BBBBBB;
+	cursor: pointer;
+}
+#content #main form .a input:hover {
+	background: #777777;
+}

@@ -1,0 +1,192 @@
+#content #hotnews li {
+	float: left;
+	padding: 10px 4px;
+}
+#content #hotnews li a:hover {
+	color: #f00;
+}
+#content #hotnews strong {
+	float: left;
+	width: 100px;
+	padding: 10px 0;
+}
+#content #hotnews {
+	width: 1122px;
+	border-bottom: 1px solid;
+}
+#content #main .top{
+	margin: 0 auto;
+}
+#content #main .top .tuijian,.guanyu,.lianxi {
+	float: left;
+	margin-top: 20px;
+	margin-right: 7px;
+	margin-left: 12px;
+	width: 353px;
+	height: 124px;
+	background: url('images/mainbg.png');
+}
+#content #main .top h2 {
+	font-size: 15px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+#content #main .top .tuijian a {
+	display: block;
+	width: 96px;
+	height: 78px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 13px;
+}
+#content #main .top .tuijian a:hover {
+	border: 1px solid;
+}
+#content #main .top .guanyu p{
+	width: 215px;
+	height: 85px;
+	float: left;
+	text-indent: 2em;
+	padding-top: 15px;
+	font-size: 12px;
+	margin-left: 10px;
+}
+#content #main .top .guanyu img {
+	float: left;
+}
+#content #main .top .lianxi p{
+	font-size: 15px;
+	padding-left: 30px;
+	padding-top: 15px;
+}
+#content #main  .sideleft {
+	position: relative;
+	width: 200px;
+	float: left;
+	height: 820px;
+	margin-top: 15px;
+	margin-left: 25px;
+}
+#content #main  .sideleft  h2 {
+	width: 180px;
+	height: 40px;
+	background: #0D9590;
+	line-height: 40px;
+	padding-left: 20px;
+	color: #fff;
+}
+#content #main  .sideleft ul li {
+	width: 185px;
+	border-bottom: 1px dotted;
+	padding: 8px 0;
+	margin-left: 5px;
+	text-align: center;
+}
+#content #main  .sideleft ul li a{
+	display: block;
+	font-size: 12px;
+	color: #333;
+	text-overflow: ellipsis;
+}
+#content #main  .sideleft ul li a:hover {
+	color: red;
+}
+#content #main .side1 {
+	position: absolute;
+	border: 1px solid #CACAD9;
+	padding-bottom: 20px;
+	top: 0;
+	margin-bottom: 30px;
+}
+#content #main  .side2 {
+	position: absolute;
+	bottom: 0;
+	width: 200px;
+	height: 355px;
+	border: 1px solid #CACAD9;
+	margin-top: 15px;
+}
+#content #main  .side2 p{
+	font-size: 15px;
+	margin-left: 5px;
+	color: #646473;
+	line-height: 29px;
+}
+#main .main {
+	width: 890px;
+	float: left;
+	height: 820px;
+	padding-top: 20px;
+}
+#main .main h3 {
+	width: 870px;
+	margin: 0 10px ;
+	border-bottom: 3px solid #0B8B8E;
+}
+#main .main h3 span {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	background: #0B8B8E;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #eee;
+	margin-left: 20px;
+}
+#main .main #jianjie p{
+	width: 844px;
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 24px;
+	color: #444;
+	margin: 0 auto;
+	border: 3px dashed #0B8B8E;
+	border-top: none;
+	padding: 10px;
+}
+#main .main #chanpin {
+	width: 870px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+#main .main #chanpin .chanpin {
+	position: relative;
+	width: 870px;
+	padding-bottom: 20px;
+	border: 3px dashed #0B8B8E;
+	border-top: none;
+	margin: 0 auto;
+}
+#main .main #chanpin h3 {
+	margin:0 6px ;
+}
+#main .main #chanpin  .chanpin  .ims {
+	float: left;
+	height: 170px;
+	width: 170px;
+	margin-left:80px;
+	margin-top: 20px;
+	border: 3px solid #999;
+}
+#main .main #chanpin  .chanpin  .ims:hover {
+	border: 3px solid #c00;
+}
+#main .main #chanpin .chanpin  img {
+	width: 160px;
+	height: 160px;
+	margin: 5px;
+}
+#main .main #chanpin .chanpin .gd {
+	display: block;
+	width: 180px;
+	margin-top: 20px;
+	float: right;
+	height: 30px;
+	color: #222;
+}
+#main .main #chanpin .chanpin .gd:hover {
+	color: #c00;
+}
