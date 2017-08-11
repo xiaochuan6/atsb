@@ -53,16 +53,17 @@ a {
 }
 #header .header .nav li {
 	float: left;
+	width: 88px;
 	font-size: 15px;
 	padding-left: 30px;
 }
 #header .header .nav .second a{
-	background: url('images/nav-bg.png') no-repeat;
+	background: url('images/nav-bg.png') no-repeat center;
 	color: #0B8B8E ;
 }
 #header .header .nav li a{
 	color: #fff;
-	padding: 10px 14px 18px 14px;
+	padding: 10px 14px 10px 14px;
 }
 #header .header .nav li a:hover {
 	background: url('images/nav-bg.png') no-repeat;
